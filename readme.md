@@ -1,4 +1,4 @@
-## Chrome extension (with WebAssembly compiled from Go) to manage Instagram followers
+## Chrome extension boilerplate (with WebAssembly compiled from Go)
 
 ### To develop:
 1. First, compile the Go code to WebAssembly `GOOS=js GOARCH=wasm go build -o extension/main.wasm wasm/main.go`
